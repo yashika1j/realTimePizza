@@ -30,5 +30,34 @@ nav li:last-child a{
                color:$pure;
              }
  }
+ .btn-primary{
+   background: $primary;
+   &:hover{
+      background: $primary-hover;
+   }
+ }
 
- 
+ .amount{
+     color: $primary;
+ }
+.block{
+  border:2px solid $primary;
+  color:$primary;
+  transition: $smooth;
+
+}
+.login{
+  a{
+
+  align-items: end;
+  color: $primary;
+  &:hover{
+    color: $primary-hover;
+  }
+  }
+
+}
+
+ .sign{
+    background: $primary;
+ }

@@ -1,0 +1,70 @@
+<section class="bg-gray-200 h-full">
+
+    <!--
+  This example requires some changes to your config:
+  
+  ```
+  // tailwind.config.js
+  module.exports = {
+    // ...
+    plugins: [
+      // ...
+      require('@tailwindcss/forms'),
+    ],
+  }
+  ```
+-->
+<!--
+  This example requires updating your template:
+
+  ```
+  <html class="h-full bg-white">
+  <body class="h-full">
+  ```
+-->
+<div class="flex min-h-full flex-col justify-center px-6 py-12 lg:px-8 ">
+    <!--div class="sm:mx-auto sm:w-full sm:max-w-sm">
+      <!img class="mx-auto h-10 w-auto" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600" alt="Your Company"-->
+      <!--h2 class="mt-10 text-center text-2xl font-bold leading-9 tracking-tight text-gray-900 border border-gray-500 ">Sign in to your account</h2>
+    </div-->
+  
+    <div class=" mx-auto sm:w-full sm:max-w-sm border-2 rounded-md border-gray-300 bg-white ">
+      <form class="space-y-5" action="#" method="POST">
+        <div class="p-6">
+          <h2 class=" sign mt-10  text-center text-2xl font-semibold leading-9 tracking-tight text-gray-900 border rounded-full border-gray-300"> Login to your account</h2>
+        </div>
+        <div>
+          <label for="Username" class=" mx-3 text-sm font-bold leading-6 text-gray-900">Username</label>
+          <div class="mt-2 p-2">
+            <input id="Username" name="Username" placeholder="username" type="text" autocomplete="Username" required class="block w-full mx-auto  rounded-md border-0 py-1 text-gray-600  placeholder:text-gray-100 text-sm sm:leading-6 p-2">
+          </div>
+        </div>
+  
+        <div>
+          <div class="flex items-center justify-between">
+            <label for="password" class="  mx-3 text-sm font-bold leading-6 text-gray-900">Password</label>
+            
+          </div>
+          <div class="mt-2 p-3">
+            <input id="password" name="password"  placeholder="password" type="password" autocomplete="current-password" required class="block w-full rounded-md border-0 py-1 text-gray-600  placeholder:text-gray-400 text-sm sm:leading-6 p-2">
+          </div>
+        </div>
+     <div class="flex  mx-auto ">
+
+      <div class="mx-auto mb-4">
+        <button type="submit" class=" btn-primary items-center px-4   mb-10  rounded-full  py-1 text-sm font-semibold leading-6 text-white ">Login in</button>
+    </div>
+
+         <div class="text-sm mx-auto mt-2 ">
+          <a href="/register" class=" login px-8 font-bold text-red-500 hover:text-red-300  ">Don't have an account?</a>
+          </div> 
+  
+      
+      </div>
+      </form>
+  
+    
+    </div>
+  </div>
+  
+</section>
