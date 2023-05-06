@@ -1,0 +1,67 @@
+
+[
+{
+    "_id": {
+      "$oid": "64554e56d53db89cd0d1bdc3"
+    },
+    "name":"margrita",
+    "image":"pizza.png",
+    "price":"200",
+    " size":"small"
+  },
+  {
+    "_id": {
+      "$oid": "64554f21d53db89cd0d1bdc4"
+    },
+    "name":"carbonara",
+   
+    "image":"pizza.png",
+    "price":"300",
+    " size":"medium"
+  },
+  {
+    "_id": {
+      "$oid": "6455505ed53db89cd0d1bdc6"
+    },
+    "name": "italiana",
+    "image":"pizza.png",
+    "price":"500",
+    " size":"large"
+  }
+,
+{
+    "_id": {
+      "$oid": "645550f2d53db89cd0d1bdc7"
+    }
+    ,
+    "name": "Americana",
+    "image":"pizza.png",
+    "price":"300",
+    " size":"medium"
+  },
+  {
+    "_id": {
+      "$oid": "6455516cd53db89cd0d1bdc8"
+    }
+  ,
+  "name": "Farmhouse",
+    "image":"pizza.png",
+    "price":"500",
+    " size":"large"
+  },
+
+  {
+    "_id": {
+      "$oid": "645551b3d53db89cd0d1bdc9"
+    }
+  ,
+  "name": "Chicken-mushroom",
+    "image":"pizza.png",
+    "price":"500",
+    " size":"large"
+  }
+
+
+
+  
+]

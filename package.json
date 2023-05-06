@@ -15,8 +15,10 @@
   "dependencies": {
     "cross-env": "^7.0.3",
     "ejs": "^3.1.9",
+    "expres": "^0.0.5",
     "express": "^4.18.2",
     "express-ejs-layouts": "^2.5.1",
+    "mongoose": "^7.1.0",
     "touch-cli": "^0.0.1"
   },
   "devDependencies": {
